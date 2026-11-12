@@ -1,0 +1,275 @@
+version: 2.1
+jobs:
+  j01:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large
+    steps:
+      - run:
+          name: step_01
+          command: echo job_01; sleep 3
+  j02:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large
+    steps:
+      - run:
+          name: step_02
+          command: echo job_02; sleep 3
+  j03:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large
+    steps:
+      - run:
+          name: step_03
+          command: echo job_03; sleep 3
+  j04:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large
+    steps:
+      - run:
+          name: step_04
+          command: echo job_04; sleep 3
+  j05:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large
+    steps:
+      - run:
+          name: step_05
+          command: echo job_05; sleep 3
+  j06:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large
+    steps:
+      - run:
+          name: step_06
+          command: echo job_06; sleep 3
+  j07:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large
+    steps:
+      - run:
+          name: step_07
+          command: echo job_07; sleep 3
+  j08:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large
+    steps:
+      - run:
+          name: step_08
+          command: echo job_08; sleep 3
+  j09:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large
+    steps:
+      - run:
+          name: step_09
+          command: echo job_09; sleep 3
+  j10:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large
+    steps:
+      - run:
+          name: step_10
+          command: echo job_10; sleep 3
+  j11:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large
+    steps:
+      - run:
+          name: step_11
+          command: echo job_11; sleep 3
+  j12:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large
+    steps:
+      - run:
+          name: step_12
+          command: echo job_12; sleep 3
+  j13:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large
+    steps:
+      - run:
+          name: step_13
+          command: echo job_13; sleep 3
+  j14:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large
+    steps:
+      - run:
+          name: step_14
+          command: echo job_14; sleep 3
+  j15:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large
+    steps:
+      - run:
+          name: step_15
+          command: echo job_15; sleep 3
+  j16:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large
+    steps:
+      - run:
+          name: step_16
+          command: echo job_16; sleep 3
+  j17:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large
+    steps:
+      - run:
+          name: step_17
+          command: echo job_17; sleep 3
+  j18:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large
+    steps:
+      - run:
+          name: step_18
+          command: echo job_18; sleep 3
+  j19:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large
+    steps:
+      - run:
+          name: step_19
+          command: echo job_19; sleep 3
+  j20:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large
+    steps:
+      - run:
+          name: step_20
+          command: echo job_20; sleep 3
+  j21:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large
+    steps:
+      - run:
+          name: step_21
+          command: echo job_21; sleep 3
+  j22:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large
+    steps:
+      - run:
+          name: step_22
+          command: echo job_22; sleep 3
+  j23:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large
+    steps:
+      - run:
+          name: step_23
+          command: echo job_23; sleep 3
+  j24:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large
+    steps:
+      - run:
+          name: step_24
+          command: echo job_24; sleep 3
+  j25:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large
+    steps:
+      - run:
+          name: step_25
+          command: echo job_25; sleep 3
+  j26:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large
+    steps:
+      - run:
+          name: step_26
+          command: echo job_26; sleep 3
+  j27:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large
+    steps:
+      - run:
+          name: step_27
+          command: echo job_27; sleep 3
+  j28:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large
+    steps:
+      - run:
+          name: step_28
+          command: echo job_28; sleep 3
+  j29:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large
+    steps:
+      - run:
+          name: step_29
+          command: echo job_29; sleep 3
+  j30:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large
+    steps:
+      - run:
+          name: step_30
+          command: echo job_30; sleep 3
+workflows:
+  main:
+    jobs:
+      - j01
+      - j02
+      - j03
+      - j04
+      - j05
+      - j06
+      - j07
+      - j08
+      - j09
+      - j10
+      - j11
+      - j12
+      - j13
+      - j14
+      - j15
+      - j16
+      - j17
+      - j18
+      - j19
+      - j20
+      - j21
+      - j22
+      - j23
+      - j24
+      - j25
+      - j26
+      - j27
+      - j28
+      - j29
+      - j30
